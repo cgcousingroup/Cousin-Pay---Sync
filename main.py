@@ -10,8 +10,8 @@ app = Flask(__name__, template_folder="templates")
 CORS(app)  # permite chamadas de qualquer origem durante dev
 
 # Dados fixos
-NAME = "DAVID OLIVEIRA LIMA"
-CPF = "60035394889"
+NAME = "Marcos Gabriel Geraldo Aragão"
+CPF = "66378260494"
 EMAIL = "cgcousingroup@gmail.com"
 
 BASE_URL = "https://api.syncpayments.com.br/api/v1/payment-link"
@@ -96,4 +96,5 @@ def gerar_pix():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+
 
